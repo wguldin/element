@@ -1,5 +1,3 @@
-@import "../common/var.css";
-
 @component-namespace el {
   @b date-range-picker {
     min-width: 520px;

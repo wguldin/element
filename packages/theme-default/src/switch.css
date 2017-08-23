@@ -1,8 +1,6 @@
 @charset "UTF-8";
-@import "./common/var.css";
 
 @component-namespace el {
-
   @b switch {
     display: inline-block;
     position: relative;
@@ -16,7 +14,6 @@
         cursor: not-allowed;
       }
     }
-
     @e label {
       transition: .2s;
       position: absolute;
@@ -45,11 +42,9 @@
         color: var(--color-white);
       }
     }
-
     @e input {
       display: none;
     }
-
     @e core {
       margin: 0;
       display: inline-block;
@@ -71,14 +66,12 @@
         background-color: var(--color-white);
       }
     }
-
     @when checked {
       .el-switch__core {
         border-color: var(--switch-on-color);
         background-color: var(--switch-on-color);
       }
     }
-
     @when disabled {
       .el-switch__core {
         border-color: var(--switch-disabled-color) !important;
@@ -93,7 +86,6 @@
         }
       }
     }
-
     @modifier wide {
       .el-switch__label {
         &.el-switch__label--left {
@@ -108,7 +100,6 @@
         }
       }
     }
-
     & .label-fade-enter,
     & .label-fade-leave-active {
       opacity: 0;

@@ -1,6 +1,4 @@
 @charset "UTF-8";
-@import "./input.css";
-@import "./common/var.css";
 
 @component-namespace el {
 
@@ -115,7 +113,7 @@
       @e keyword {
         font-weight: bold;
       }
-      
+
       @m extensible {
         &:after {
           font-family: 'element-icons';

@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import "./common/var.css";
 
 @component-namespace el {
   @b radio-button {
@@ -86,7 +85,7 @@
         border-radius: var(--border-radius-base);
       }
     }
-    
+
     @m large {
       & .el-radio-button__inner {
         @mixin button-size var(--button-large-padding-vertical), var(--button-large-padding-horizontal), var(--button-large-font-size), 0;

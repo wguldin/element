@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import "./common/var.css";
 
 @component-namespace el {
   @b tabs {
@@ -136,7 +135,7 @@
       > .el-tabs__header .el-tabs__item {
         border: 1px solid transparent;
         transition: all .3s cubic-bezier(.645,.045,.355,1);
-              
+
         &.is-closable {
           &:hover {
             padding: * 9px;
@@ -153,7 +152,7 @@
 
           &.is-closable {
             padding: * 16px;
-            
+
             .el-icon-close {
               width: 14px;
             }
