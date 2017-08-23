@@ -1,5 +1,3 @@
-@import "../common/var.css";
-
 @component-namespace el {
   @b month-table {
     font-size: 12px;

@@ -1,7 +1,6 @@
 @charset "UTF-8";
 @import "./input-number.css";
 @import "./tooltip.css";
-@import "./common/var.css";
 
 @component-namespace el {
   @b slider {

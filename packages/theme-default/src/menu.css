@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import "./common/var.css";
 
 @define-extend menu-item {
   height: 56px;
@@ -39,7 +38,7 @@
           background-color: var(--color-extra-light-black);
         }
       }
-      
+
       & .el-submenu .el-menu {
         background-color: var(--color-base-black);
 
@@ -179,7 +178,7 @@
   }
   @b menu-item {
     @extend menu-item;
-    
+
     & [class^="el-icon-"] {
       vertical-align: baseline;
       margin-right: 10px;
@@ -197,7 +196,7 @@
       color: var(--color-primary);
     }
   }
-  
+
   @b submenu {
     @e title {
       position: relative;

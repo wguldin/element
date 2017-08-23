@@ -1,5 +1,3 @@
-@import "./common/var.css";
-
 @component-namespace el-color {
   @component hue-slider {
     position: relative;

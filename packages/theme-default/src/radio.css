@@ -1,6 +1,5 @@
 @charset "UTF-8";
-@import "./common/var.css";
-@import './mixins/button';
+@import "./mixins/_button.css";
 
 @component-namespace el {
   @b radio {

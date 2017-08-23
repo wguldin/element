@@ -1,5 +1,3 @@
-@import "../common/var.css";
-
 @component-namespace el {
   @b time-panel {
     margin: 5px 0;

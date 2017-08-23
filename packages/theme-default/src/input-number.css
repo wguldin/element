@@ -1,13 +1,12 @@
 @charset "UTF-8";
 @import "./input.css";
-@import "./common/var.css";
 
 @component-namespace el {
   @b input-number {
     display: inline-block;
     width: 180px;
     position: relative;
-    
+
     & .el-input {
       display: block;
     }

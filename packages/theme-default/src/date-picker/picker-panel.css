@@ -1,5 +1,3 @@
-@import "../common/var.css";
-
 @component-namespace el {
   @b picker-panel {
     color: var(--datepicker-color);

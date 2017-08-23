@@ -1,4 +1,3 @@
-@import "../common/var.css";
 @import "./picker-panel.css";
 
 @component-namespace el {

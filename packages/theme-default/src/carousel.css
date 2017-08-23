@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import "./common/var.css";
 
 @component-namespace el {
 
@@ -70,13 +69,13 @@
           opacity: 0.24;
         }
       }
-      
+
       @modifier labels {
         left: 0;
         right: 0;
         transform: none;
         text-align: center;
-        
+
         .el-carousel__button {
           size: auto auto;
           padding: 2px 18px;

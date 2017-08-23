@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import "./common/var.css";
 @import "./common/popup.css";
 @import "./button.css";
 @import "./input.css";
@@ -50,7 +49,7 @@
       .el-message-box__close {
         color: #999;
       }
-      
+
       &:focus, &:hover {
         .el-message-box__close {
           color: var(--color-primary);
